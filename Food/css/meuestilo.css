@@ -1,0 +1,44 @@
+.conteudo{
+    min-height: 700px;
+}
+.cardapio {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1-cardapio.jpg);
+    height: 290px;
+}
+.img{
+    width: 30%;
+}
+.table{
+    border: 2px solid #808080 !important;
+}
+
+
+#navbar {
+	background-color:#f90;
+}
+#navbar .btn {
+	border:0px solid transparent;
+}
+#navbar .btn-default.focus, #navbar .btn-default:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+#navbar li.nav-item a {
+	font-weight:700;
+	color:#333;
+}
+#navbar li.nav-item a:hover {
+	color:#fff;
+}
+#navbar a.dropdown-item {
+	font-weight:400 !important;
+}
+#navbar button.dropdown-toggle-split {
+	background-color:transparent;
+}
+#navbar button.dropdown-toggle-split:hover {
+	color:#fff;
+}
+#navbar button.dropdown-toggle-split:active {
+	outline:none;
+}
